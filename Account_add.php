@@ -3,6 +3,9 @@ session_start();
 if(strcmp($_SESSION["type"],'Admin')!=0){
     header( 'Location: ./index.php');
 }
+if(!isset($_GET['type'])){
+ header( 'Location: ./wheretogo.php');
+}
 ?>
 <?php require 'Header.php'; ?>
 <?php require 'list_form.php'; ?>
@@ -13,8 +16,7 @@ if(strcmp($_SESSION["type"],'Admin')!=0){
         <div class="card card-cascade wider reverse my-4 pb-5">
             <!--Card content-->
             <div class="card-body text-center wow fadeIn" data-wow-delay="0.2s">
-                <!--Title-->
-                <?php show_list("account","Teacher") ?>
+                <?php show_Fill_form() ?>
             </div>
         </div>
     </div>

@@ -21,7 +21,7 @@
                 <!-- Logo -->
                 <li>
                     <div class="logo-wrapper waves-light">
-                        <a href="#" style="Justify-self:center;">
+                        <a href="Admin.php" style="Justify-self:center;">
                             <img src="img/admin.png" class="img-fluid flex-center" style="height:100%;padding:0;margin:0;margin-left:33%;">
                         </a>
                     </div>
@@ -39,13 +39,13 @@
                             <div class="collapsible-body">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="admin_Lists.php" class="waves-effect">Admins</a>
+                                        <a href="Lists.php?type=Admin" class="waves-effect">Admins</a>
                                     </li>
                                     <li>
-                                        <a href="Teacher_Lists.php" class="waves-effect">Teachers</a>
+                                        <a href="Lists.php?type=Teacher" class="waves-effect">Teachers</a>
                                     </li>
                                     <li>
-                                        <a href="Student_Lists.php" class="waves-effect">Students</a>
+                                        <a href="Lists.php?type=Student" class="waves-effect">Students</a>
                                     </li>
                                 </ul>
                             </div>
@@ -58,13 +58,13 @@
                             <div class="collapsible-body">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="admin_Add.php" class="waves-effect">Admin</a>
+                                        <a href="wheretogo.php?type=Admin" class="waves-effect">Admin</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="waves-effect">Teacher</a>
+                                        <a href="wheretogo.php?type=Teacher" class="waves-effect">Teacher</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="waves-effect">Student</a>
+                                        <a href="wheretogo.php?type=Student" class="waves-effect">Student</a>
                                     </li>
                                 </ul>
                             </div>
