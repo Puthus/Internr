@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+  /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
+}
+
+.Mygrid {
+    height: 100%;
+    display:grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas: "side main";
+}
+
+.Sidera {
+    grid-area: side;
+    height: 100vh;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
