@@ -4,7 +4,7 @@ var browserSync = require('browser-sync').create();
 gulp.task('sync', function () {
     //php
      browserSync.init({
-         proxy :"intern"
+         proxy :"github"
      });
      gulp.watch(["./css/*.css", "./js/*.js", "./*.php"]).on('change', browserSync.reload);
 
