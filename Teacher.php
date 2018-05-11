@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <?php
-    session_start();
-    if(strcmp($_SESSION["type"],'Teacher')!=0){
-            header( 'Location: ./index.php');
-        }
+session_start();
+if(strcmp($_SESSION["type"],'Teacher')!=0){
+    header( 'Location: ./index.php');
+}
 ?>
 <html lang="en">
 
@@ -19,10 +19,13 @@
 </head>
 
 <body class="text-center">
-        <?php
-            $user = $_SESSION["User"];
-            echo "<h1> Good job ".$user." you have logged in succesfully</h1>";
-        ?>
+    <?php
+    $user = $_SESSION["User"];
+    echo "<h1> Good job ".$user." you have logged in succesfully</h1>";
+    ?>
+    <form action="logout.php" method="post">
+        <button class="btn btn-primary" type="submit">Log out</button>
+    </form>
     <!-- Scripting area -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.bundle.min.js" /></script>

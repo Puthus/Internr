@@ -15,7 +15,6 @@ if(isset($_GET['type']))
             break;
     }
 }else {
-	//echo "hello";
 	header( 'Location: Admin.php');
 }
 ?>

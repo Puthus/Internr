@@ -8,7 +8,7 @@
     <title>Admin dashboard</title>
     <link rel="stylesheet" href="css/font-awesome.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/compiled.min.css" rel="stylesheet">
     <link href="css/Admin.css" rel="stylesheet">
 </head>
 
