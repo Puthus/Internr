@@ -35,10 +35,8 @@ if(strcmp($_SESSION["type"],'Admin')!=0){
 
             <div >
                 <!--Table-->
-                <table class="table table-hover mb-0 table-responsive">
 
                     <!--Table head-->
-                    <thead class="blue-grey lighten-4 table-wrapper">
                         <tr>
                             <th>
                                 <input type="checkbox" id="checkbox">
@@ -55,19 +53,6 @@ if(strcmp($_SESSION["type"],'Admin')!=0){
                     <!--Table head-->
 
                     <!--Table body-->
-                    <tbody class="table-wrapper">
-                        <tr>
-                            <th scope="row">
-                                <input type="checkbox" id="checkbox1">
-                                <label for="checkbox1" class="label-table"></label>
-                            </th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
                         <tr>
                             <th scope="row">
                                 <input type="checkbox" id="checkbox1">
