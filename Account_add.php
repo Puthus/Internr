@@ -16,6 +16,12 @@ if(!isset($_GET['type'])){
         <div class="card card-cascade wider reverse my-4 pb-5">
             <!--Card content-->
             <div class="card-body text-center wow fadeIn" data-wow-delay="0.2s">
+                <h4 class="card-title">
+                    <strong>Add a  <?php 
+                    if(isset($_GET['type'])) {
+                        echo $_GET['type'];
+                    } ?> </strong>
+                </h4>
                 <?php show_Fill_form() ?>
             </div>
         </div>

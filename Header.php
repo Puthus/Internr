@@ -10,6 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/compiled.min.css" rel="stylesheet">
     <link href="css/Admin.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
 <body class="fixed-sn black-skin">
@@ -77,13 +78,13 @@
                             <div class="collapsible-body">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="#" class="waves-effect">Admin</a>
+                                        <a href="Delete.php?type=Admin" class="waves-effect">Admin</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="waves-effect">Teacher</a>
+                                        <a href="Delete.php?type=Teacher" class="waves-effect">Teacher</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="waves-effect">Student</a>
+                                        <a href="Delete.php?type=Student" class="waves-effect">Student</a>
                                     </li>
                                 </ul>
                             </div>
@@ -131,15 +132,9 @@
             </div>
             <ul class="nav navbar-nav nav-flex-icons ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link">
-                        <i class="fa fa-user"></i>
-                        <span class="clearfix d-none d-sm-inline-block">Account</span>
-                    </a>
-                </li>
-                <li class="nav-item">
                     <form id="logout" action="logout.php" method="post">
                         <a class="nav-link" onclick="submitlogout()">
-                            <i class="fa fa-sign-out"></i>
+                            <i class="fas fa-sign-out-alt"></i>
                             <span class="clearfix d-none d-sm-inline-block">Log out</span>
                         </a>
                     </form>
